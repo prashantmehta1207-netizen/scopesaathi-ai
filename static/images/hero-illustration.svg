@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 360" fill="none">
+ <defs>
+  <linearGradient id="desk" x1="56" y1="255" x2="405" y2="336" gradientUnits="userSpaceOnUse"><stop stop-color="#344D9C"/><stop offset="1" stop-color="#7D51D8"/></linearGradient>
+  <linearGradient id="screen" x1="210" y1="110" x2="352" y2="236" gradientUnits="userSpaceOnUse"><stop stop-color="#1A2D60"/><stop offset="1" stop-color="#10182F"/></linearGradient>
+  <linearGradient id="person" x1="270" y1="150" x2="370" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#6E9BFF"/><stop offset="1" stop-color="#7D54E6"/></linearGradient>
+ </defs>
+ <circle cx="304" cy="165" r="130" fill="#6B7EFF" fill-opacity=".12"/>
+ <circle cx="306" cy="165" r="104" stroke="#97C8FF" stroke-opacity=".28" stroke-dasharray="5 9"/>
+ <path d="M50 276 355 276 431 317 122 317 50 276Z" fill="url(#desk)" stroke="#8FA8FF" stroke-opacity=".6"/>
+ <path d="m122 317 309-1-5 9H126l-4-8Z" fill="#21346B"/>
+ <rect x="182" y="79" width="173" height="144" rx="14" fill="#7EA2FF" fill-opacity=".2" stroke="#9DC9FF" stroke-width="1.4"/>
+ <rect x="192" y="90" width="153" height="121" rx="8" fill="url(#screen)"/>
+ <rect x="207" y="104" width="88" height="11" rx="5.5" fill="#B8CCFF" fill-opacity=".85"/>
+ <rect x="207" y="124" width="122" height="5" rx="2.5" fill="#6684C9"/>
+ <rect x="207" y="136" width="103" height="5" rx="2.5" fill="#6684C9"/>
+ <rect x="207" y="151" width="126" height="42" rx="7" fill="#3155A4" fill-opacity=".55" stroke="#79D7FF" stroke-opacity=".55"/>
+ <circle cx="220" cy="164" r="5" fill="#4FE0BA"/><rect x="231" y="161" width="80" height="4" rx="2" fill="#C1D6FF"/><rect x="231" y="170" width="59" height="3.5" rx="1.75" fill="#7E9AD9"/>
+ <path d="m250 223 25 0 13 23h-53l15-23Z" fill="#6A82D8"/>
+ <path d="M202 247h83l35 18H171l31-18Z" fill="#9AB9FF" fill-opacity=".65"/>
+ <path d="M266 140c-10 8-18 18-19 35l-3 51c-1 19 12 32 30 32h53c17 0 27-10 27-25l-3-54c-1-20-11-32-27-40l-26-9-32 10Z" fill="url(#person)"/>
+ <path d="M275 120c0-20 14-32 31-32 19 0 32 14 30 34l-5 23c-3 13-15 23-29 21-15-2-24-12-26-25l-1-21Z" fill="#B87858"/>
+ <path d="M272 119c1-23 14-38 37-38 18 0 31 14 31 33-8-2-17-9-21-17-8 11-24 18-47 22Z" fill="#19254B"/>
+ <path d="M280 141c6 10 15 16 26 16 10 0 19-5 25-15l-2 16c-6 10-14 15-24 15s-19-6-24-16l-1-16Z" fill="#A9664E"/>
+ <path d="M271 187c12-6 23-7 34-3 15 6 26 19 35 34l22 35h-83l-15-25 7-41Z" fill="#A2B9FF" fill-opacity=".78"/>
+ <path d="M318 194c14 8 22 19 29 33l21 33h-33l-27-34 10-32Z" fill="#5D78D6"/>
+ <path d="M255 241c-8 6-14 14-16 24l-2 11h42l-1-16-6-15-17-4Z" fill="#BA7A5C"/>
+ <path d="M247 275h-21c-7 0-12 5-12 12v8h63v-7c0-7-5-13-12-13h-18Z" fill="#E0E8FF"/>
+ <path d="M239 238c-10 13-12 25-11 39" stroke="#96ADFF" stroke-width="10" stroke-linecap="round"/>
+ <path d="M250 252h58l14 18h-87l15-18Z" fill="#111E3D" stroke="#9CC7FF" stroke-opacity=".55"/>
+ <path d="M263 257h27l8 8h-42l7-8Z" fill="#4C69BB"/>
+ <rect x="48" y="111" width="94" height="67" rx="12" fill="#233A74" stroke="#90BFFF" stroke-opacity=".7"/>
+ <rect x="60" y="124" width="48" height="6" rx="3" fill="#E5F3FF"/><rect x="60" y="138" width="67" height="4" rx="2" fill="#89A7E8"/><rect x="60" y="148" width="50" height="4" rx="2" fill="#89A7E8"/>
+ <circle cx="130" cy="166" r="16" fill="#3B67DB" stroke="#B7E9FF"/><path d="m123 166 5 5 10-11" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="360" y="59" width="68" height="52" rx="12" fill="#192B5C" stroke="#A7CEFF" stroke-opacity=".8"/><path d="M375 75h37m-37 9h27m-27 9h32" stroke="#BEE6FF" stroke-width="4" stroke-linecap="round"/>
+ <circle cx="405" cy="210" r="21" fill="#2F4F9B" stroke="#97C6FF"/><path d="M397 211h16m-8-8v16" stroke="white" stroke-width="3" stroke-linecap="round"/>
+ <path d="m146 199 15-10m187 13 15-17m-182-74-15-9" stroke="#77C9FF" stroke-width="2" stroke-dasharray="4 5"/>
+ <path d="m95 239 6 11 12 2-9 8 2 12-11-6-10 6 2-12-9-8 12-2 5-11Z" fill="#FFD781"/>
+ <circle cx="377" cy="136" r="4" fill="#52E1BE"/><circle cx="158" cy="80" r="3.5" fill="#FFD781"/><circle cx="430" cy="149" r="3" fill="#81D8FF"/>
+</svg>

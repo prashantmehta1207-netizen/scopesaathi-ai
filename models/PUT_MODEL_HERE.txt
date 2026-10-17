@@ -1,0 +1,5 @@
+Place the downloaded GGUF model in this folder.
+Expected default filename:
+Qwen3.5-0.8B-Q4_0.gguf
+
+The model is not bundled in this ZIP because it is a separate ~563 MB file with its own license.

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1530">
+  <meta name="description" content="An AI assistant that helps freelancers clarify client project requirements, risks, and follow-up questions. Supports local or hosted inference.">
+  <title>ScopeSaathi AI · Your Project Clarity Partner</title>
+  <link rel="icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#home" data-page="home" aria-label="ScopeSaathi AI home">
+        <img src="{{ url_for('static', filename='images/logo.svg') }}" alt="" class="brand-logo">
+        <span class="brand-copy"><strong>ScopeSaathi <b>AI</b></strong><small>Your Project Clarity Partner</small></span>
+      </a>
+      <div class="nav-label">WORKSPACE</div>
+      <nav class="side-nav">
+        <button class="nav-item active" data-page="home"><span class="nav-icon">⌂</span><span>Home</span></button>
+        <button class="nav-item" data-page="new"><span class="nav-icon">＋</span><span>New Analysis</span><span class="nav-count">AI</span></button>
+        <button class="nav-item" data-page="history"><span class="nav-icon">◷</span><span>History</span></button>
+        <button class="nav-item" data-page="settings"><span class="nav-icon">⚙</span><span>Settings</span></button>
+        <button class="nav-item" data-page="about"><span class="nav-icon">✦</span><span>About ScopeSaathi</span></button>
+      </nav>
+      <div class="sidebar-spacer"></div>
+      <div class="sidebar-status" id="sidebar-status">
+        <div class="status-title"><span class="status-dot is-loading" id="side-status-dot"></span><span id="side-status-title">Checking local AI</span></div>
+        <p id="side-status-copy">Checking your device connection…</p>
+        <div class="privacy-mini"><span>⌑</span> Your briefs stay on this device</div>
+      </div>
+      <div class="profile-mini"><div class="avatar">SS</div><div><strong>Freelancer Mode</strong><small>Stay focused. Work smarter.</small></div><span class="more-dots">•••</span></div>
+      <div class="sidebar-foot">SCOPE SAATHI AI <span>v1.0</span><br><small>Built for clearer client work.</small></div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobile-menu" aria-label="Open menu">☰</button>
+        <div class="breadcrumbs"><span>Workspace</span><span class="crumb-slash">/</span><strong id="current-section">Home</strong></div>
+        <div class="topbar-actions">
+          <div class="connection-pill" id="connection-pill"><span class="status-dot is-loading" id="top-status-dot"></span><span id="top-status-text">Checking local AI</span></div>
+          <button class="icon-button" data-page="settings" title="Settings" aria-label="Settings">⚙</button>
+          <div class="top-avatar" title="Freelancer mode">S</div>
+        </div>
+      </header>
+      <div class="page-wrap" id="view-root" aria-live="polite"></div>
+      <footer class="app-footer"><span>© 2026 ScopeSaathi AI</span><span><span class="footer-lock">▣</span> Local or hosted AI mode</span><span>Made for independent builders <b>✦</b></span></footer>
+    </main>
+  </div>
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
