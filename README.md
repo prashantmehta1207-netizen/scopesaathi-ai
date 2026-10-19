@@ -22,3 +22,6 @@ This version keeps the same multi-page ScopeSaathi interface and uses OpenRouter
 ## Local offline version
 
 Set `AI_PROVIDER=local` (or omit it) and set up llama.cpp plus the Qwen GGUF file as described in the local version's README. Do not set an OpenRouter key if you intend to keep briefs local.
+
+
+
